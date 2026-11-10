@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #F3EEE8;
+  --color-ivory-card: #FAF7F2;
+  --color-teal-deep: #17645F;
+  --color-teal-dark: #0F4743;
+  --color-teal-light: #E6F0EF;
+  --color-orange-core: #FF6848;
+  --color-orange-hover: #E85535;
+  --color-orange-light: #FFF0EC;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F3EEE8;
+  color: #17645F;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
